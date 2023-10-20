@@ -1,0 +1,60 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display:grid;
+    place-items:center;
+    position:relative;
+    background-color:#ED6A9D;
+  }
+  div:nth-child(1) {
+    display:block;
+    content:"";
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid #050044;
+    transform:rotate(45deg);
+    position:absolute;
+    top:32px;
+    left:95px;
+  }
+    div:nth-child(2) {
+    display:block;
+    content:"";
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid #050044;
+    transform:rotate(45deg);
+    position:absolute;
+    top:32px;
+    left:195px;
+  }
+    div:nth-child(3) {
+    display:block;
+    content:"";
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid #050044;
+    transform:rotate(45deg);
+    position:absolute;
+    top:132px;
+    left:95px;
+  }
+    div:nth-child(4) {
+    display:block;
+    content:"";
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid #050044;
+    transform:rotate(45deg);
+    position:absolute;
+    top:132px;
+    left:195px;
+  }
